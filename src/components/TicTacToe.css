@@ -1,0 +1,33 @@
+table{
+    align-content: flex-start;
+}
+table td {
+    border: 5px solid rgb(133, 24, 24);
+    width: 120px;
+    height: 120px;
+}
+table tr {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.box{
+    position: absolute;
+    top: 20%;
+    left:10%;
+    width: 70%;
+    height: 50%;
+    
+    
+    
+}
+button{
+    border:none;
+    background-color: rgb(221, 167, 170);
+    color: rgb(10, 3, 3);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    width:120px;
+    height: 30px;
+}

@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.App{
+  width:700px;
+  height:700px;
+  @media (max-width: 767px) {
+    width:600px;
+    height:600px;
+  }
+  @media (max-width: 400px) {
+    width:500px;
+    height:500px;
+  }
+}
+.App>h1{
+  font-family: cursive;
+  color: rgb(100, 13, 13);
+  text-align: center;
+  @media (max-width: 767px) {
+    text-align: left;
+  }
+  @media (max-width: 400px) {
+    text-align: flex-start;
+  }
+}
